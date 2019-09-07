@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from shutil import copyfile
 
 # set the rootDir where the search will start
 # that is in home dorectory
@@ -13,4 +14,9 @@ rootDir = os.path.join(Path.home(),rootDir)
 for dirName, subdirList, fileList in os.walk(rootDir):
     if "Stu_" in dirName:
      for fname in fileList:
-        print('\t%s' % fname)
+        sourceFile =os.path.join(dirName,fname)
+        print('\t%s' % sourceFile)
+        if not os.path.exists(fname):
+            copyfile(sourceFile, fname)
+        else:
+            print(f'excuse me I can not copy file {fname} as it eists in current directory')
