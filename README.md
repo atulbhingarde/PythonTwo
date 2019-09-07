@@ -4,15 +4,15 @@ Python Assignment two
 
 In this exercise, you will use Python to complete four practical challenges:
 * Creating 24 directories for each week of class, each containing 3 folders for each day of class
-* Copying files from `~/Downloads` into the current directory
-* Adding the copy script to the PATH
-* Add an alias for the copy script to `~/.bashrc`
+* Copying files from _*`~/Downloads`*_ into the current directory
+* Adding the copy script to the _*PATH*_
+* Add an alias for the copy script to _*`~/.bashrc`*_
 
 ---
 
 ## Class Notes Folder
 
-Create a script called `create_notes_drs.py`. In the file, define and call a function called `main` that does the following:
+Create a script called _*`create_notes_drs.py`*_. In the file, define and call a function called `main` that does the following:
 
 * Creates a directory called `CyberSecurity-Notes` in the current working directory
 * Within the `CyberSecurity-Notes` directory, creates 24 sub-directories (sub-folders), called `Week 1`, `Week 2`, `Week 3`, and so on until up through `Week 24`
