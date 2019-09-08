@@ -30,7 +30,7 @@ for dirName, subdirList, fileList in os.walk(rootDir):
         if not os.path.exists(targetFile):
             copyfile(sourceFile, targetFile)
         else:
-            print(f'excuse me I can not copy file {targetFile} exists')
+            print(f'excuse me I can not copy file {sourceFile} as {targetFile} exists')
             moveOn = False
             break
     else:
