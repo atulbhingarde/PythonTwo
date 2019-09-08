@@ -34,7 +34,9 @@ for _**`housekeeping`**_ purpose I have taken leiberty to copy the files to a fo
 * Copies these files into the current working directory
 
 **Note**: This isn't just a challenge to complete for the sake of it, this is a practical script you can run to move any downloaded files from class into your class notes directories.
-below picture depicts that is there is a file existing copy process stops totally.
+
+
+below picture depicts that if a _**targetfile**_ exists copy process stops totally.
 
 ![stop if the file exists](copy_activities.png)
 ---
