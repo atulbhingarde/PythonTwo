@@ -11,12 +11,30 @@ rootDir = os.path.join(Path.home(),rootDir)
 ####
 # when the path has Stu_ in it 
 ####
+# store currenet directory and build target directory based on current directory 
+
+curDir=os.path.curdir
+targetDir=os.path.join(curDir,"target")
+
+print(f'{targetDir}')
+if not os.path.exists(targetDir):
+    os.makedirs(targetDir)
+moveOn = True
 for dirName, subdirList, fileList in os.walk(rootDir):
-    if "Stu_" in dirName:
+    if ( "Stu_" in dirName ):
      for fname in fileList:
-        sourceFile =os.path.join(dirName,fname)
-        print('\t%s' % sourceFile)
-        if not os.path.exists(fname):
-            copyfile(sourceFile, fname)
+        sourceFile = os.path.join(dirName,fname)
+        targetFile = os.path.join(targetDir,fname)
+        #print('\t%s' % sourceFile)
+        #print(f'{targetDir}')
+        if not os.path.exists(targetFile):
+            copyfile(sourceFile, targetFile)
         else:
-            print(f'excuse me I can not copy file {fname} as it eists in current directory')
+            print(f'excuse me I can not copy file {targetFile} exists')
+            moveOn = False
+            break
+    else:
+        if ( not moveOn ):
+            break
+    if ( not moveOn ):
+            break

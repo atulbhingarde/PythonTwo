@@ -5,7 +5,7 @@ Python Assignment two
 In this exercise, you will use Python to complete four practical challenges:
 * Creating 24 directories for each week of class, each containing 3 folders for each day of class
 * Copying files from _**`~/Downloads`**_ into the current directory
-* Adding the copy script to the _**PATH**_
+* Adding the copy script to the _**`PATH`**_
 * Add an alias for the copy script to _**`~/.bashrc`**_
 
 ---
@@ -26,9 +26,11 @@ Create a script called _**`create_notes_drs.py`**_. In the file, define and call
 
 So far you've used a few different Python modules, but for the rest of the homework, you will need to familiarize yourself with a new one. The `shutil` module is a Python module used for high-level file operations like moving and copying. Read [this beforehand](https://www.journaldev.com/20536/python-shutil-module) to get familiar with `shutil` and make sure to use the [documentation](https://docs.python.org/3.5/library/shutil.html#module-shutil) while you're working through the homework. 
 
-Create a script called `copy_activities.py` with a function called `stu_activities` that does the following:
+Create a script called _**`copy_activities.py`**_ with a function called _**`stu_activities`**_ that does the following:
 
-* Finds files in `~/Downloads` that contain the string `Stu_`
+for _**`housekeeping`**_ purpose I have taken leiberty to copy the files to a folfder named _**`target`**_  that could be cleaned up after verification or maintained for testing purpose as deemed
+
+* Finds files in _**`~/Downloads`**_ that contain the string _**`Stu_`**_
 * Copies these files into the current working directory
 
 **Note**: This isn't just a challenge to complete for the sake of it, this is a practical script you can run to move any downloaded files from class into your class notes directories.
@@ -37,10 +39,10 @@ Create a script called `copy_activities.py` with a function called `stu_activiti
 
 ## Copy Class Slides
 
-Create a script called `copy_slides.py` with a function called `pptx_copy`
+Create a script called _**`copy_slides.py`**_ with a function called _**`pptx_copy`**_
 Students will create a script that does the following:
 
-* Finds files in `~/Downloads` with the file extension `.pptx` or `.ppt`
+* Finds files in _**`~/Downloads`**_ with the file extension _**`.pptx`**_ or _**`.ppt`**_
 * Copies these files into the current working directory
 
 **Note**: This is another practical script you can use to move downloaded slides from class into your class notes directories.
