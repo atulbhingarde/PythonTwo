@@ -36,7 +36,7 @@ for _**`housekeeping`**_ purpose I have taken leiberty to copy the files to a fo
 **Note**: This isn't just a challenge to complete for the sake of it, this is a practical script you can run to move any downloaded files from class into your class notes directories.
 
 
-below picture depicts that if a _**targetfile**_ exists copy process stops totally.
+below picture depicts that if a _**targetfile**_ exists copy process stops totally. IN this case the file _**`Akamai_StateOfInternet_2017.pdf`**_ exists more than once in the source directory structure hence it breaks from the loop
 
 ![stop if the file exists](copy_activities.png)
 ---
