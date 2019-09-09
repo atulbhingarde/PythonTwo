@@ -17,9 +17,11 @@ Create a script called _**`create_notes_drs.py`**_. In the file, define and call
 * Creates a directory called _**`CyberSecurity-Notes`**_ in the current working directory
 * Within the _**`CyberSecurity-Notes`**_ directory, creates 24 sub-directories (sub-folders), called _**`Week 1`**_, _**`Week 2`**_, _**`Week 3`**_, and so on until up through _**`Week 24`**_
 * Within each week directory, create 3 sub-directories, called _**`Day 1`**_, _**`Day 2`**_ , and _**`Day 3`**_
+![create folders](create_notes_drs.png)
 
 **Bonus Challenge**: Add a conditional statement to abort the script if the directory `CyberSecurity-Notes` already exists.
 
+![stop because directory alredy exists](cant_proceed.png)
 ---
 
 ## Copying Student Exercises
