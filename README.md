@@ -28,6 +28,9 @@ Create a script called _**`create_notes_drs.py`**_. In the file, define and call
 
 So far you've used a few different Python modules, but for the rest of the homework, you will need to familiarize yourself with a new one. The `shutil` module is a Python module used for high-level file operations like moving and copying. Read [this beforehand](https://www.journaldev.com/20536/python-shutil-module) to get familiar with `shutil` and make sure to use the [documentation](https://docs.python.org/3.5/library/shutil.html#module-shutil) while you're working through the homework. 
 
+<!-- '/cygdrive/c/cygwin64_2/usr/libexec/git-core/git-credential-manager.exe' get: /cygdrive/c/cygwin64_2/usr/libexec/git-core/git-credential-manager.exe: No such file or directory -->
+test
+
 
 
 Create a script called _**`copy_activities.py`**_ with a function called _**`stu_activities`**_ that does the following:
